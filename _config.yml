@@ -1,0 +1,67 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: jamzrob
+email: james.s.raubenheimer@vanderbilt.edu
+description: A personal blog of my time spent developing technology and teaching code in Ghana
+url: https://jamzrob.com # the base hostname & protocol for your site
+keywords: ["Blog", "James Raubenheimer", "Ghana","iSpace","Accra"]
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          American/Phildelphia
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: jamzrob
+  avatar: my-head.jpg
+  job: "Student, Developer"
+  bio: "Currently living in Accra, Ghana working for the iSpace foundation"
+  email: james.s.raubenheimer@vanderbilt.edu
+  disqus-shortname: developing-tech
+  twitter: #username
+  facebook: james.raubenheimer.1 #username
+  google:
+    plus: #username
+    analytics: UA-62251910-2
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: jamesraub #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: james-raubenheimer-83a96174 #username
+  xing: #username
+  instagram: jamzrob #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: UC_uCd6PjEVGddXKiWjNpu4g #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+  telegram: #username
